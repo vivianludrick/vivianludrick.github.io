@@ -141,7 +141,7 @@ downloadBtn.addEventListener('click', (e) => {
     e.preventDefault();
     
     // Create resume content
-    const resumeContent = ;
+    const resumeContent = "";
     
     // Create and download file
     const blob = new Blob([resumeContent], { type: 'document/pdf' });
